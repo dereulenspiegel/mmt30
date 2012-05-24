@@ -15,8 +15,7 @@
         android:id="@+id/beerCounterFragment"
         android:name="de.itemis.android.mmt.BeerCounterFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center">
+        android:layout_height="wrap_content">
 
         <!-- Preview: layout=@layout/counter_button -->
     </fragment>
@@ -25,7 +24,7 @@
         android:id="@+id/statisticsFragment"
         android:name="de.itemis.android.mmt.StatisticsFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <!-- Preview: layout=@layout/count_details -->
     </fragment>
