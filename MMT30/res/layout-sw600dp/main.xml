@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_horizontal"/>
+
+    <fragment
+        android:id="@+id/beerCounterFragment"
+        android:name="de.itemis.android.mmt.BeerCounterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <!-- Preview: layout=@layout/counter_button -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="de.itemis.android.mmt.StatisticsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Preview: layout=@layout/count_details -->
+    </fragment>
+
+</LinearLayout>

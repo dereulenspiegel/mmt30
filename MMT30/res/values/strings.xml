@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MMT30Activity!</string>
+    <string name="app_name">MMT30</string>
+    <string name="another_beer">Noch ein Bier</string>
+    <string name="counting_error">Beim zählen der Biere muss wohl eines schlecht gewesen sein</string>
+    <string name="counter_title">MMT30 Bierzähler</string>
+    <string name="details_button_text">Gesamtbier und Bier pro Stunde</string>
+    <string name="total_beers">Bier gesamt</string>
+    <string name="beer_per_hour">Bier pro Stunde</string>
+    <string name="share_status">Bierstatus teilen</string>
+    <string name="salute">Prost</string>
+    <string name="share_message">Hi! I\'m at #mmt30 and I already had %1$d beers, that are about %2$f per hour! Having a great time!</string>
+    <string name="intent_chooser_message">Teile deinen Bierstatus</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="beer_count_too_low">Solltest du nicht erstmal mehr Bier trinken?</string>
+
+</resources>
